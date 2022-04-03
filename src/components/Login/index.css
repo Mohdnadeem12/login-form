@@ -1,0 +1,30 @@
+.app-container {
+  background-color: #c3caea;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.login-form-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+@media (max-width: 567px) {
+  width: 100%;
+}
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 0;
+  padding: 0;
+}
